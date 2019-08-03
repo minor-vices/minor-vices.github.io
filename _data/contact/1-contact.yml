@@ -1,0 +1,10 @@
+items:
+  - class_name: "section-header--contact"
+    description: |
+      [hey@minorvices.com](mailto:hey@minorvices.com)
+
+      [+1 646 694 0062](tel:+1 646 694 0062)
+    title: "Let’s do this."
+    title_element: "h1"
+    type: "section-header"
+type: "section"

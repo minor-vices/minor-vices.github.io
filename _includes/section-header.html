@@ -1,0 +1,23 @@
+{%- if include.data -%}
+
+  {%- capture class_name -%}
+    {{ include.data.type }}{% if include.data.class_name %} {{ include.data.class_name }}{% endif %}
+  {%- endcapture -%}
+
+  <header class="{{ class_name }}">
+
+    {%- if include.data.title -%}
+      {%- assign title_element = include.data.title_element | default: "h2" -%}
+      <{{ title_element }} class="{{ include.data.type }}__title">
+        {{ include.data.title }}
+      </{{ title_element }}>
+    {%- endif -%}
+
+    {%- if include.data.description -%}
+      <div class="{{ include.data.type }}__description">
+        {{ include.data.description | markdownify }}
+      </div>
+    {%- endif -%}
+
+  </header>
+{%- endif -%}

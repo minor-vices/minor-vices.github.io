@@ -1,0 +1,19 @@
+{%- if include.data -%}
+  <div class="{{ include.data.type }}">
+    <div class="{{ include.data.type }}__text">
+
+      {%- if include.data.title -%}
+        <h2 class="{{ include.data.type }}__title">
+          {{ include.data.title }}
+        </h2>
+      {%- endif -%}
+
+      {%- if include.data.description -%}
+        <div class="{{ include.data.type }}__description">
+          {{ include.data.description | markdownify }}
+        </div>
+      {%- endif -%}
+
+    </div>
+  </div>
+{%- endif -%}

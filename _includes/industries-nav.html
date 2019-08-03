@@ -1,0 +1,15 @@
+{%- if include.data -%}
+  <nav class="{{ include.data.type }}">
+    <ul>
+
+      {%- if include.data.items -%}
+        {%- for item in include.data.items -%}
+          <li>
+            <a href="{{ item.href | default: "#" }}">{{ item.title }}</a>
+          </li>
+        {%- endfor -%}
+      {%- endif -%}
+
+    </ul>
+  </nav>
+{%- endif -%}

@@ -1,0 +1,59 @@
+items:
+  - items:
+      - href: "#sports"
+        title: "Sports"
+
+      - href: "#gaming"
+        title: "Gaming"
+
+      - href: "#healthcare"
+        title: "Healthcare"
+
+      - href: "#consumer"
+        title: "Consumer"
+
+      - href: "#television"
+        title: "Television"
+
+      - href: "#connected-devices"
+        title: "Connected Devices"
+    type: "industries-nav"
+
+  - items:
+      - category: "Sports"
+        description: "Digital Product & Service Design"
+        id: "sports"
+        title: "NBA"
+        type: "industry-card"
+
+      - category: "Gaming"
+        description: "Digital Product & Service Design"
+        id: "gaming"
+        title: "NBA 2K League"
+        type: "industry-card"
+
+      - category: "Healthcare"
+        description: "Design Language System"
+        id: "healthcare"
+        title: "Zocdoc"
+        type: "industry-card"
+
+      - category: "Consumer"
+        description: "Product Strategy, Brand, UI/UX"
+        id: "consumer"
+        title: "Ultimate Ears"
+        type: "industry-card"
+
+      - category: "Television"
+        description: "Digital Ecosystem Design"
+        id: "television"
+        title: "AMC Networks"
+        type: "industry-card"
+
+      - category: "Connected Devices"
+        description: "UV Sense Proof of Concept"
+        id: "connected-devices"
+        title: "L’Oreal"
+        type: "industry-card"
+    type: "industry-cards"
+type: "industries"

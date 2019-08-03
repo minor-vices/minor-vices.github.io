@@ -1,0 +1,22 @@
+items:
+  - title: "Our Clients"
+    type: "section-header"
+
+  - items:
+      - description: "Digital Ecosystem"
+        title: "AMC"
+        type: "client-card"
+
+      - description: "Digital Product and Service Design"
+        title: "NBA"
+        type: "client-card"
+
+      - description: "Design Language System"
+        title: "Zocdoc"
+        type: "client-card"
+
+      - description: "Product Strategy, Brand, UI/UX"
+        title: "Ultimate Ears"
+        type: "client-card"
+    type: "client-cards"
+type: "section"

@@ -1,0 +1,13 @@
+{%- if include.data -%}
+  <div class="{{ include.data.type }}">
+
+    {%- if include.data.items -%}
+      {%- for item in include.data.items -%}
+        {%- if item and item.type -%}
+          {% include {{ item.type }}.html data=item %}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+  </div>
+{%- endif -%}

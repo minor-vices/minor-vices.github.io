@@ -1,18 +1,22 @@
 # Site settings
-title: Minor Vices
+title: "Minor Vices"
 description: >-
   Minor Vices is a no-nonsense, NYC based design studio founded out of the
   desire to work with great brands and great teams.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-email: hey@minorvices.com
-tel: +1 646 694 0062
+email: "hey@minorvices.com"
+tel: "+1 646 694 0062"
+header_nav_page_paths:
+  - "about.md"
+  - "work.md"
+  - "contact.md"
 
 # Build settings
-markdown: kramdown
+markdown: "kramdown"
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  - "jekyll-feed"
+  - "jekyll-seo-tag"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,0 +1,36 @@
+/* Typography */
+
+abbr[title] {
+  border: 0;
+}
+
+p, ul, ol, dl {
+  margin: 0 0 1.5em;
+}
+
+ul, ol {
+  padding-left: 2em;
+}
+
+li ul,
+li ol {
+  margin-bottom: 0;
+}
+
+dd {
+  margin-left: 2em;
+}
+
+blockquote,
+figure {
+  margin: 1.5em 2em;
+}
+
+pre {
+  margin: 1.5em 0;
+}
+
+%list-style-none {
+  padding: 0;
+  list-style: none;
+}

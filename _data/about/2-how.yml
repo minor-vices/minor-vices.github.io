@@ -1,0 +1,28 @@
+items:
+  - title: "How We Do"
+    type: "section-header"
+
+  - items:
+      - description: |
+          Our creative leadership is involved in every project, from beginning
+          to end. We are personally invested and  make your business goals our
+          own.
+        title: "Hands On"
+        type: "about-how-item"
+
+      - description: |
+          Our process is highly collaborative. We work closely with you to
+          provide creative solutions to known and unknown problems and scale our
+          teams to meet your needs as they evolve.
+        title: "Collaborative"
+        type: "about-how-item"
+
+      - description: |
+          We provide clear and actionable solutions by visualizing abstract
+          problems and testing early and often. Our team works with a diverse
+          toolkit of prototyping tools and tailors solutions to the needs of
+          each project.
+        title: "Iterative"
+        type: "about-how-item"
+    type: "about-how-items"
+type: "section"

@@ -1,0 +1,16 @@
+---
+layout: "default"
+---
+
+{%- if site.data[page.data] -%}
+  {%- assign items = site.data[page.data] | sort -%}
+
+  {%- for item_hash in items -%}
+    {%- assign item = item_hash[1] -%}
+
+    {%- if item and item.type -%}
+      {% include {{ item.type }}.html data=item %}
+    {%- endif -%}
+
+  {%- endfor -%}
+{%- endif -%}

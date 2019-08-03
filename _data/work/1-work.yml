@@ -1,0 +1,39 @@
+items:
+  - title: "Our Work"
+    title_element: "h1"
+    type: "section-header"
+
+  - items:
+      - description: "Digital Product & Service Design"
+        title: "NBA 2K League"
+        type: "work-card"
+
+      - description: "UI/UX, Motion Design"
+        title: "NY Times"
+        type: "work-card"
+
+      - description: "Product Strategy, Brand, UI/UX"
+        title: "Ultimate Ears"
+        type: "work-card"
+
+      - description: "Design Language System"
+        title: "Zocdoc"
+        type: "work-card"
+
+      - description: "Digital Ecosystem Design"
+        title: "AMC Networks"
+        type: "work-card"
+
+      - description: "Digital Product & Service Design"
+        title: "NBA International"
+        type: "work-card"
+
+      - description: "Connected Device UI/UX"
+        title: "La Roche Posay"
+        type: "work-card"
+
+      - description: "Digital Product & Service Design"
+        title: "WNBA"
+        type: "work-card"
+    type: "work-cards"
+type: "section"

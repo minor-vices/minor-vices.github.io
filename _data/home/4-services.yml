@@ -1,0 +1,27 @@
+items:
+  - title: "Our Vices"
+    type: "section-header"
+
+  - items:
+      - description: |
+          We have experience leading global design research projects across
+          North America, Asia, and Europe and partner with clients to develop
+          methodologies using a range of generative and evaluative research
+          tools.
+        title: "Research"
+        type: "service-card"
+
+      - description: |
+          We work closely with you to provide creative solutions to known and
+          unknown problems. We map market insights to consumer needs and
+          business goals to identify unique opportunities.
+        title: "Strategy"
+        type: "service-card"
+
+      - description: |
+          We have been designing and shipping products and services globally for
+          20 years. Experience design is core to our methodology and philosophy. 
+        title: "Design"
+        type: "service-card"
+    type: "service-cards"
+type: "section"

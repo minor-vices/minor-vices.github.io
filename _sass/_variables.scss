@@ -1,0 +1,28 @@
+// Variables
+
+// Colors
+$color-black: #000;
+$color-gold: #dcc798;
+$color-white: #fff;
+
+// Scaffolding
+$body-min-width: 20em;
+$body-font-size: 100%;
+$body-line-height: 1.25;
+
+$body-color: $color-black;
+$body-background-color: $color-white;
+
+// Typography
+$font-family-system: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+
+$font-family-sans-serif: $font-family-system;
+$font-family-serif: Georgia, Times New Roman, serif;
+$font-family-monospace: Courier New, Courier, monospace;
+
+$font-family: $font-family-sans-serif;
+
+$headings: 'h1, h2, h3, h4, h5, h6';
+
+// Transitions
+$transition-duration: 400ms;
