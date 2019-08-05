@@ -1,0 +1,19 @@
+/* Footer */
+
+.footer {
+  text-align: center;
+  border-top: 1px solid rgba($color-black, 0.5);
+  margin: 0 5vw;
+
+  @media (min-width: 60em) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer__tel {
+
+  @media (min-width: 60em) {
+    font-size: 1.125em;
+  }
+}

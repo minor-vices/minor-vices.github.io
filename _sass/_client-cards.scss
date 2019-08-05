@@ -1,0 +1,17 @@
+/* Client Cards */
+
+.client-card__title {
+  font-size: 1.5em;
+  margin: 0;
+
+  @media (min-width: 60em) {
+    font-size: 3em;
+  }
+}
+
+.client-card__description {
+
+  @media (min-width: 60em) {
+    font-size: 1.5em;
+  }
+}

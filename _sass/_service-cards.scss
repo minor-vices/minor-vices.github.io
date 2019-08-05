@@ -1,0 +1,19 @@
+/* Service Cards */
+
+.service-card__title {
+  font-size: 2em;
+  margin: 0;
+
+  @media (min-width: 60em) {
+    font-size: 3em;
+  }
+}
+
+.service-card__description {
+  color: rgba($color-black, 0.4);
+  line-height: 1.5;
+
+  @media (min-width: 60em) {
+    font-size: 1.125em;
+  }
+}

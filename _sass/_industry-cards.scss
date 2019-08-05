@@ -1,0 +1,38 @@
+/* Industry Cards */
+
+.industry-card__category {
+  font-size: 1.5em;
+  margin: 0;
+
+  @media (min-width: 60em) {
+    display: none;
+  }
+}
+
+.industry-card__title {
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0;
+
+  @media (min-width: 60em) {
+    font-size: 1.5em;
+    display: inline-block;
+  }
+}
+
+.industry-card__description {
+
+  @media (min-width: 60em) {
+    font-size: 1.5em;
+    display: inline-block;
+  }
+
+  &::before {
+
+    @media (min-width: 60em) {
+      content: '–';
+      margin-left: 0.25em;
+      display: inline-block;
+    }
+  }
+}

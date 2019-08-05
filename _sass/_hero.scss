@@ -1,0 +1,28 @@
+/* Hero */
+
+.hero {
+  color: $color-white;
+  background-color: $color-black;
+}
+
+.hero__title {
+  font-size: 2em;
+  margin: 0;
+
+  @media (min-width: 60em) {
+    font-size: 4em;
+    line-height: 1.125;
+  }
+}
+
+.hero__description {
+  line-height: 1.5;
+
+  > * {
+    font-size: 0.875em;
+
+    @media (min-width: 60em) {
+      font-size: 1.125em;
+    }
+  }
+}

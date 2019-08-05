@@ -1,0 +1,43 @@
+/* Section Header */
+
+.section-header {
+  text-align: center;
+}
+
+.section-header__title {
+  font-size: 2.5em;
+  margin: 0;
+
+  @media (min-width: 60em) {
+    font-size: 4em;
+  }
+
+  .section-header--contact & {
+    font-size: 2em;
+
+    @media (min-width: 60em) {
+      font-size: 3.375em;
+    }
+  }
+}
+
+.section-header__description {
+  line-height: 1.5;
+
+  > * {
+
+    @media (min-width: 60em) {
+      font-size: 1.5em;
+    }
+
+    .section-header--contact & {
+      font-size: 1.5em;
+      line-height: 1.25;
+      margin-bottom: 0.5em;
+
+      @media (min-width: 60em) {
+        font-size: 3.375em;
+      }
+    }
+  }
+}
