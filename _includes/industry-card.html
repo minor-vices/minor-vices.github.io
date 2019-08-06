@@ -1,10 +1,21 @@
 {%- if include.data -%}
-  <div class="{{ include.data.type }}" id="{{ include.data.id }}">
+
+  {%- capture class_name -%}
+    {{ include.data.type }}{% if include.data.class_name %} {{ include.data.class_name }}{% endif %}
+  {%- endcapture -%}
+
+  <div class="{{ class_name }}" id="{{ include.data.id }}">
 
     {%- if include.data.category -%}
       <h2 class="{{ include.data.type }}__category">
         {{ include.data.category }}
       </h2>
+    {%- endif -%}
+
+    {%- if include.data.media -%}
+      <div class="{{ include.data.type }}__media">
+        {% include {{ include.data.media.type }}.html data=include.data.media %}
+      </div>
     {%- endif -%}
 
     {%- if include.data.title -%}

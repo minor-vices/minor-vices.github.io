@@ -1,6 +1,7 @@
 /* Home - About */
 
 .home-about {
+  padding: 5vw 0;
 
   @media (min-width: 48em) {
     display: flex;
@@ -19,6 +20,7 @@
   img {
     width: 100%;
     max-width: none;
+    display: block;
   }
 }
 
@@ -46,5 +48,9 @@
 
   @media (min-width: 60em) {
     font-size: 1.25em;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
   }
 }

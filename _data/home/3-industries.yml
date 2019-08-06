@@ -21,38 +21,104 @@ items:
 
   - items:
       - category: "Sports"
+        class_name: "industry-card--sports"
         description: "Digital Product & Service Design"
         id: "sports"
+        media:
+          sizes:
+            - "(min-width: 48em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "NBA"
         type: "industry-card"
 
       - category: "Gaming"
+        class_name: "industry-card--gaming"
         description: "Digital Product & Service Design"
         id: "gaming"
+        media:
+          sizes:
+            - "(min-width: 48em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "NBA 2K League"
         type: "industry-card"
 
       - category: "Healthcare"
+        class_name: "industry-card--healthcare"
         description: "Design Language System"
         id: "healthcare"
+        media:
+          sizes:
+            - "(min-width: 48em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "Zocdoc"
         type: "industry-card"
 
       - category: "Consumer"
+        class_name: "industry-card--consumer"
         description: "Product Strategy, Brand, UI/UX"
         id: "consumer"
+        media:
+          sizes:
+            - "(min-width: 48em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "Ultimate Ears"
         type: "industry-card"
 
       - category: "Television"
+        class_name: "industry-card--television"
         description: "Digital Ecosystem Design"
         id: "television"
+        media:
+          sizes:
+            - "(min-width: 48em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "AMC Networks"
         type: "industry-card"
 
       - category: "Connected Devices"
+        class_name: "industry-card--connected-devices"
         description: "UV Sense Proof of Concept"
         id: "connected-devices"
+        media:
+          sizes:
+            - "(min-width: 48em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "L’Oreal"
         type: "industry-card"
     type: "industry-cards"

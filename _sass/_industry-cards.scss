@@ -1,30 +1,81 @@
 /* Industry Cards */
 
+.industry-card {
+  color: $color-white;
+  padding: 5vw;
+
+  @media (min-width: 48em) {
+    padding-left: 51.25vw;
+  }
+}
+
+.industry-card--sports {
+  background-color: #3a657c;
+}
+
+.industry-card--gaming {
+  background-color: #2b253d;
+}
+
+.industry-card--healthcare {
+  background-color: #eb9796;
+}
+
+.industry-card--consumer {
+  background-color: #838383;
+}
+
+.industry-card--television {
+  background-color: #496357;
+}
+
+.industry-card--connected-devices {
+  background-color: #72bae1;
+}
+
 .industry-card__category {
   font-size: 1.5em;
-  margin: 0;
+  margin: 0 0 1rem;
 
-  @media (min-width: 60em) {
+  @media (min-width: 48em) {
     display: none;
+  }
+}
+
+.industry-card__media {
+  margin-bottom: 0.5em;
+
+  img {
+    width: 100%;
+    max-width: none;
+    display: block;
   }
 }
 
 .industry-card__title {
   font-weight: bold;
   font-size: 1em;
-  margin: 0;
+  margin: 0 0 0.25em;
 
   @media (min-width: 60em) {
-    font-size: 1.5em;
+    margin-bottom: 0;
     display: inline-block;
+  }
+
+  @media (min-width: 80em) {
+    font-size: 1.5em;
   }
 }
 
 .industry-card__description {
+  margin: 0;
 
   @media (min-width: 60em) {
-    font-size: 1.5em;
     display: inline-block;
+  }
+
+  @media (min-width: 80em) {
+    font-size: 1.5em;
   }
 
   &::before {

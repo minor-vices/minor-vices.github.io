@@ -1,9 +1,15 @@
 /* Industries Nav */
 
 .industries-nav {
+  width: 43.75vw;
+  color: $color-white;
+  position: absolute;
+  top: 50%;
+  left: 5vw;
+  transform: translateY(-50%);
   display: none;
 
-  @media (min-width: 60em) {
+  @media (min-width: 48em) {
     display: block;
   }
 
@@ -13,6 +19,10 @@
   }
 
   a {
-    font-size: 3.375em;
+    font-size: 2em;
+
+    @media (min-width: 80em) {
+      font-size: 3.375em;
+    }
   }
 }
