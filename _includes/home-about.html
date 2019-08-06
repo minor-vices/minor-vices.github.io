@@ -1,5 +1,9 @@
 {%- if include.data -%}
   <div class="{{ include.data.type }}">
+    <div class="{{ include.data.type }}__media">
+      {% include img.html data=include.data.media %}
+    </div>
+
     <div class="{{ include.data.type }}__text">
 
       {%- if include.data.title -%}

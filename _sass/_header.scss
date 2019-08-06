@@ -1,6 +1,33 @@
 /* Header */
 
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: 40em) {
+    align-items: flex-end;
+  }
+}
+
+.header__logo {
+  padding-left: 5vw;
+}
+
+.header__nav-toggle {
+  padding-right: 5vw;
+
+  @media (min-width: 40em) {
+    display: none;
+  }
+}
+
 .header__nav {
+  display: none;
+
+  @media (min-width: 40em) {
+    padding-right: 5vw;
+    display: initial;
+  }
 
   ul {
     @extend %list-style-none;
