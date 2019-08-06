@@ -2,7 +2,7 @@
 
 .home-about {
 
-  @media (min-width: 60em) {
+  @media (min-width: 48em) {
     display: flex;
     align-items: center;
   }
@@ -11,7 +11,7 @@
 .home-about__media {
   padding: 0 5vw;
 
-  @media (min-width: 60em) {
+  @media (min-width: 48em) {
     width: 50%;
     padding-right: 1.25vw;
   }
@@ -25,7 +25,7 @@
 .home-about__text {
   padding: 0 5vw;
 
-  @media (min-width: 60em) {
+  @media (min-width: 48em) {
     width: 50%;
     padding-left: 1.25vw;
   }

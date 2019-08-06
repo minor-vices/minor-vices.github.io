@@ -3,13 +3,17 @@
 .hero {
   height: 80vh;
   min-height: 20em;
-  max-height: 125vw;
+  max-height: 150vw;
   color: $color-white;
   background-color: $color-black;
   margin-bottom: 5vw;
   display: flex;
   align-items: flex-end;
   position: relative;
+
+  @media (min-width: 40em), (orientation: landscape) {
+    max-height: 75vw;
+  }
 }
 
 .hero__media {

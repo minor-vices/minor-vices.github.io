@@ -8,6 +8,16 @@ items:
           North America, Asia, and Europe and partner with clients to develop
           methodologies using a range of generative and evaluative research
           tools.
+        media:
+          sizes:
+            - "(min-width: 48em) 30vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "Research"
         type: "service-card"
 
@@ -15,12 +25,32 @@ items:
           We work closely with you to provide creative solutions to known and
           unknown problems. We map market insights to consumer needs and
           business goals to identify unique opportunities.
+        media:
+          sizes:
+            - "(min-width: 48em) 30vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "Strategy"
         type: "service-card"
 
       - description: |
           We have been designing and shipping products and services globally for
-          20 years. Experience design is core to our methodology and philosophy. 
+          20 years. Experience design is core to our methodology and philosophy.
+        media:
+          sizes:
+            - "(min-width: 48em) 30vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "Design"
         type: "service-card"
     type: "service-cards"
