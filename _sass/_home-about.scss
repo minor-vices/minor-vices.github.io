@@ -36,10 +36,22 @@
 .home-about__title {
   font-size: 2em;
   line-height: 1;
-  margin: 0 0 0.75em;
+  padding: 2rem 0 0;
+  margin: 2rem 0 0.75em;
+  position: relative;
 
   @media (min-width: 60em) {
     font-size: 4em;
+  }
+
+  &::before {
+    content: '';
+    width: 4rem;
+    border-top: 0.25rem solid $color-gold;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 
