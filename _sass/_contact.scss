@@ -2,6 +2,12 @@
 
 .contact {
   text-align: center;
+  padding: 0 5vw;
+  margin: 3em auto;
+
+  @media (min-width: 60em) {
+    margin: 5vw auto;
+  }
 
   a {
     font-size: 2em;

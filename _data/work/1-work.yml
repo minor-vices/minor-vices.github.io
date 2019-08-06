@@ -5,34 +5,122 @@ items:
 
   - items:
       - description: "Digital Product & Service Design"
+        media:
+          sizes:
+            - "(min-width: 60em) 30vw"
+            - "(min-width: 40em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "NBA 2K League"
         type: "work-card"
 
       - description: "UI/UX, Motion Design"
+        media:
+          sizes:
+            - "(min-width: 60em) 30vw"
+            - "(min-width: 40em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "NY Times"
         type: "work-card"
 
       - description: "Product Strategy, Brand, UI/UX"
+        media:
+          sizes:
+            - "(min-width: 60em) 30vw"
+            - "(min-width: 40em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "Ultimate Ears"
         type: "work-card"
 
       - description: "Design Language System"
+        media:
+          sizes:
+            - "(min-width: 60em) 30vw"
+            - "(min-width: 40em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "Zocdoc"
         type: "work-card"
 
       - description: "Digital Ecosystem Design"
+        media:
+          sizes:
+            - "(min-width: 60em) 30vw"
+            - "(min-width: 40em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "AMC Networks"
         type: "work-card"
 
       - description: "Digital Product & Service Design"
+        media:
+          sizes:
+            - "(min-width: 60em) 30vw"
+            - "(min-width: 40em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "NBA International"
         type: "work-card"
 
       - description: "Connected Device UI/UX"
+        media:
+          sizes:
+            - "(min-width: 60em) 30vw"
+            - "(min-width: 40em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "La Roche Posay"
         type: "work-card"
 
       - description: "Digital Product & Service Design"
+        media:
+          sizes:
+            - "(min-width: 60em) 30vw"
+            - "(min-width: 40em) 45vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+            "1280w": "http://placehold.it/1280x1280/000/333"
+          type: "img"
         title: "WNBA"
         type: "work-card"
     type: "work-cards"

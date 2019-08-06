@@ -40,6 +40,10 @@
   margin: 2rem 0 0.75em;
   position: relative;
 
+  @media (min-width: 48em) {
+    margin-top: 0;
+  }
+
   @media (min-width: 60em) {
     font-size: 4em;
   }
