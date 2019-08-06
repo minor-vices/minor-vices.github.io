@@ -1,17 +1,106 @@
 /* Client Cards */
 
+.client-cards {
+  padding: 0 5vw;
+
+  @media (min-width: 48em) {
+    display: grid;
+    grid-gap: 2.5vw;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.client-card {
+
+  @media (min-width: 48em) {
+    color: $color-white;
+    position: relative;
+  }
+
+  &::before {
+
+    @media (min-width: 48em) {
+      content: '';
+      padding-top: 100%;
+      display: block;
+    }
+  }
+}
+
+.client-card--amc {
+
+  @media (min-width: 48em) {
+    grid-column: 1 / span 2;
+  }
+
+  &::before {
+
+    @media (min-width: 48em) {
+      padding-top: 50%;
+    }
+  }
+}
+
+.client-card--ultimate-ears {
+
+  @media (min-width: 48em) {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+}
+
+.client-card__media {
+  margin-bottom: 0.25em;
+
+  @media (min-width: 48em) {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  img {
+    width: 100%;
+    max-width: none;
+    display: block;
+
+    @media (min-width: 48em) {
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+  }
+}
+
+.client-card__text {
+
+  @media (min-width: 48em) {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+}
+
 .client-card__title {
   font-size: 1.5em;
   margin: 0;
 
-  @media (min-width: 60em) {
+  @media (min-width: 80em) {
     font-size: 3em;
   }
 }
 
 .client-card__description {
+  margin: 0 0 2em;
 
-  @media (min-width: 60em) {
+  @media (min-width: 48em) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 80em) {
     font-size: 1.5em;
   }
 }

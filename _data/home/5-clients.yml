@@ -3,19 +3,72 @@ items:
     type: "section-header"
 
   - items:
-      - description: "Digital Ecosystem"
+      - class_name: "client-card--amc"
+        description: "Digital Ecosystem"
+        media:
+          sizes:
+            - "90vw"
+          sources:
+            - media: "(min-width: 48em)"
+              sizes:
+                - "60vw"
+              srcset:
+                "640w": "http://placehold.it/640x360/000/333"
+                "960w": "http://placehold.it/960x540/000/333"
+                "1280w": "http://placehold.it/1280x720/000/333"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+          type: "picture"
         title: "AMC"
         type: "client-card"
 
-      - description: "Digital Product and Service Design"
+      - class_name: "client-card--nba"
+        description: "Digital Product and Service Design"
+        media:
+          sizes:
+            - "(min-width: 48em) 30vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+          type: "img"
         title: "NBA"
         type: "client-card"
 
-      - description: "Design Language System"
+      - class_name: "client-card--zocdoc"
+        description: "Design Language System"
+        media:
+          sizes:
+            - "(min-width: 48em) 30vw"
+            - "90vw"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+          type: "img"
         title: "Zocdoc"
         type: "client-card"
 
-      - description: "Product Strategy, Brand, UI/UX"
+      - class_name: "client-card--ultimate-ears"
+        description: "Product Strategy, Brand, UI/UX"
+        media:
+          sizes:
+            - "90vw"
+          sources:
+            - media: "(min-width: 48em)"
+              sizes:
+                - "30vw"
+              srcset:
+                "640w": "http://placehold.it/640x800/000/333"
+                "960w": "http://placehold.it/960x1200/000/333"
+          src: "http://placehold.it/640x640/000/333"
+          srcset:
+            "640w": "http://placehold.it/640x640/000/333"
+            "960w": "http://placehold.it/960x960/000/333"
+          type: "picture"
         title: "Ultimate Ears"
         type: "client-card"
     type: "client-cards"

@@ -1,17 +1,31 @@
 {%- if include.data -%}
-  <div class="{{ include.data.type }}">
 
-    {%- if include.data.title -%}
-      <h3 class="{{ include.data.type }}__title">
-        {{ include.data.title }}
-      </h3>
+  {%- capture class_name -%}
+    {{ include.data.type }}{% if include.data.class_name %} {{ include.data.class_name }}{% endif %}
+  {%- endcapture -%}
+
+  <div class="{{ class_name }}">
+
+    {%- if include.data.media -%}
+      <div class="{{ include.data.type }}__media">
+        {% include {{ include.data.media.type }}.html data=include.data.media %}
+      </div>
     {%- endif -%}
 
-    {%- if include.data.description -%}
-      <p class="{{ include.data.type }}__description">
-        {{ include.data.description }}
-      </p>
-    {%- endif -%}
+    <div class="{{ include.data.type }}__text">
 
+      {%- if include.data.title -%}
+        <h3 class="{{ include.data.type }}__title">
+          {{ include.data.title }}
+        </h3>
+      {%- endif -%}
+
+      {%- if include.data.description -%}
+        <p class="{{ include.data.type }}__description">
+          {{ include.data.description }}
+        </p>
+      {%- endif -%}
+
+    </div>
   </div>
 {%- endif -%}
