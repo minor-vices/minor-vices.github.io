@@ -1,4 +1,4 @@
 ---
 ---
 
-{% include_relative script/test.js %}
+{% include_relative script/industry-cards-swiper.js %}

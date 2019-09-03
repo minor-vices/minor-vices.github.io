@@ -1,0 +1,29 @@
+/* Industry Cards Swiper */
+
+.industry-cards {
+
+  .swiper-wrapper {
+    box-sizing: inherit;
+  }
+
+  &.swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 2em;
+  }
+
+  .swiper-pagination-bullet {
+    width: 0.5em;
+    height: 0.5em;
+    background-color: transparent;
+    border: 1px solid $color-white;
+    border-radius: 50%;
+    opacity: 1;
+  }
+
+  &.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 0.125em;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: $color-white;
+  }
+}

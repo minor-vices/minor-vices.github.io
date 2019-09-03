@@ -1,8 +1,9 @@
 /* Industry Cards */
 
 .industry-card {
+  width: 100vw;
   color: $color-white;
-  padding: 5vw;
+  padding: 5vw 5vw 4.5em;
 
   @media (min-width: 48em) {
     padding-left: 51.25vw;

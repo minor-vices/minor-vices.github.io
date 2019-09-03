@@ -1,12 +1,36 @@
 {%- if include.data -%}
-  <div class="{{ include.data.type }}">
 
-    {%- if include.data.items -%}
-      {%- for item in include.data.items -%}
-        {%- if item and item.type -%}
-          {% include {{ item.type }}.html data=item %}
+  {%- capture class_name -%}
+    {{ include.data.type }}{% if include.data.class_name %} {{ include.data.class_name }}{% endif %}
+  {%- endcapture -%}
+
+  <div class="{{ class_name }}">
+
+    {%- if class_name contains "swiper-container" -%}
+
+      <div class="swiper-wrapper">
+
+        {%- if include.data.items -%}
+          {%- for item in include.data.items -%}
+            {%- if item and item.type -%}
+              {% include {{ item.type }}.html data=item %}
+            {%- endif -%}
+          {%- endfor -%}
         {%- endif -%}
-      {%- endfor -%}
+
+      </div>
+      <div class="swiper-pagination"></div>
+
+    {% else %}
+
+      {%- if include.data.items -%}
+        {%- for item in include.data.items -%}
+          {%- if item and item.type -%}
+            {% include {{ item.type }}.html data=item %}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+
     {%- endif -%}
 
   </div>

@@ -19,9 +19,10 @@ items:
         title: "Connected Devices"
     type: "industries-nav"
 
-  - items:
+  - class_name: "swiper-container"
+    items:
       - category: "Sports"
-        class_name: "industry-card--sports"
+        class_name: "swiper-slide industry-card--sports"
         description: "Digital Product & Service Design"
         id: "sports"
         media:
@@ -38,7 +39,7 @@ items:
         type: "industry-card"
 
       - category: "Gaming"
-        class_name: "industry-card--gaming"
+        class_name: "swiper-slide industry-card--gaming"
         description: "Digital Product & Service Design"
         id: "gaming"
         media:
@@ -55,7 +56,7 @@ items:
         type: "industry-card"
 
       - category: "Healthcare"
-        class_name: "industry-card--healthcare"
+        class_name: "swiper-slide industry-card--healthcare"
         description: "Design Language System"
         id: "healthcare"
         media:
@@ -72,7 +73,7 @@ items:
         type: "industry-card"
 
       - category: "Consumer"
-        class_name: "industry-card--consumer"
+        class_name: "swiper-slide industry-card--consumer"
         description: "Product Strategy, Brand, UI/UX"
         id: "consumer"
         media:
@@ -89,7 +90,7 @@ items:
         type: "industry-card"
 
       - category: "Television"
-        class_name: "industry-card--television"
+        class_name: "swiper-slide industry-card--television"
         description: "Digital Ecosystem Design"
         id: "television"
         media:
@@ -106,7 +107,7 @@ items:
         type: "industry-card"
 
       - category: "Connected Devices"
-        class_name: "industry-card--connected-devices"
+        class_name: "swiper-slide industry-card--connected-devices"
         description: "UV Sense Proof of Concept"
         id: "connected-devices"
         media:
