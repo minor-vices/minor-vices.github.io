@@ -3,13 +3,16 @@
 .contact {
   text-align: center;
   padding: 0 5vw;
-  margin: 3em auto;
+  margin: 4em auto;
 
-  @media (min-width: 60em) {
+  @media (min-width: 80em) {
     margin: 5vw auto;
   }
 
   a {
     font-size: 2em;
+    padding: 0.25em 0;
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
   }
 }

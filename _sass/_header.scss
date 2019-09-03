@@ -1,22 +1,46 @@
 /* Header */
 
 .header {
+  padding-top: 5vw;
   display: flex;
   justify-content: space-between;
 
-  @media (min-width: 40em) {
+  @media (min-width: 48em) {
     align-items: flex-end;
   }
+
+  @media (min-width: 80em) {
+    padding-top: 4em;
+  }
+}
+
+.header--overlay {
+  color: $color-white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .header__logo {
   padding-left: 5vw;
+
+  svg {
+    width: auto;
+    height: 1.125em;
+    fill: currentColor;
+
+    @media (min-width: 60em) {
+      height: 1.5em;
+    }
+  }
 }
 
 .header__nav-toggle {
   padding-right: 5vw;
 
-  @media (min-width: 40em) {
+  @media (min-width: 48em) {
     display: none;
   }
 }
@@ -24,7 +48,7 @@
 .header__nav {
   display: none;
 
-  @media (min-width: 40em) {
+  @media (min-width: 48em) {
     padding-right: 5vw;
     display: initial;
   }
@@ -33,7 +57,7 @@
     @extend %list-style-none;
     margin: 0;
 
-    @media (min-width: 40em) {
+    @media (min-width: 48em) {
       display: flex;
     }
   }
@@ -41,7 +65,7 @@
   a {
     font-size: 2em;
 
-    @media (min-width: 40em) {
+    @media (min-width: 48em) {
       font-size: 1.125em;
     }
   }

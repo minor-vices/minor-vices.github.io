@@ -3,17 +3,32 @@
 .footer {
   text-align: center;
   border-top: 1px solid rgba($color-black, 0.5);
+  padding: 2.5em 0;
   margin: 0 5vw;
 
-  @media (min-width: 60em) {
+  @media (min-width: 48em) {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+  }
+}
+
+.footer__logo {
+  margin-bottom: 1em;
+
+  @media (min-width: 48em) {
+    margin-bottom: 0;
+  }
+
+  svg {
+    width: auto;
+    height: 1.5em;
   }
 }
 
 .footer__tel {
 
-  @media (min-width: 60em) {
+  @media (min-width: 48em) {
     font-size: 1.125em;
   }
 }

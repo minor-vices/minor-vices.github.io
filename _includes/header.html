@@ -1,7 +1,11 @@
-<header class="header" role="banner">
+{%- capture class_name -%}
+  header{% if page.url == "/" %} header--overlay{% endif %}
+{%- endcapture -%}
+
+<header class="{{ class_name }}" role="banner">
   <div class="header__logo">
     <a href="{{ "/" | relative_url }}">
-      {{ site.title | escape }}
+      {%- include logos/minor-vices.svg -%}
     </a>
   </div>
 
