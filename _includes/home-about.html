@@ -21,6 +21,12 @@
         </div>
       {%- endif -%}
 
+      {%- if include.data.more -%}
+        <div class="{{ include.data.type }}__more">
+          {{ include.data.more | markdownify }}
+        </div>
+      {%- endif -%}
+
     </div>
   </div>
 {%- endif -%}

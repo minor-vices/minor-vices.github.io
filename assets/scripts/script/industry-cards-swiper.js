@@ -48,7 +48,14 @@
 
     var listItem = event.target.closest('li');
     var list = listItem.closest('ul');
+    var listItems = list.getElementsByTagName('li');
     var index = [].indexOf.call(list.children, listItem);
+
+    [].forEach.call(listItems, function(el) {
+      el.classList.remove('industries-nav__item--active');
+    });
+
+    listItem.classList.add('industries-nav__item--active');
 
     swiper.slideTo(index);
   }

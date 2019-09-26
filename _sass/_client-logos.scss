@@ -1,0 +1,26 @@
+/* Client Logos */
+
+.client-logos {
+  padding: 0 2.5vw;
+  display: none;
+  align-items: center;
+
+  @media (min-width: 48em) {
+    display: flex;
+  }
+}
+
+.client-logo {
+  padding: 0 2.5vw;
+  flex: 1 1 auto;
+
+  svg {
+    width: auto;
+    max-height: 4em;
+    fill: rgba($color-black, 0.2);
+  }
+}
+
+.logo--amc .fill {
+  fill: $color-white;
+}

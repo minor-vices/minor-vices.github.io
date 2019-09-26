@@ -1,8 +1,49 @@
 /* About - How Items */
 
+.about-how-items {
+  padding: 0 5vw;
+}
+
+.about-how-item {
+  max-width: 32em;
+  text-align: center;
+  margin: 2em auto;
+
+  @media (min-width: 48em) {
+    max-width: 40em;
+    text-align: left;
+    margin: 3em auto;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  @media (min-width: 60em) {
+    max-width: 46em;
+    margin: 4em auto;
+  }
+}
+
+.about-how-item__icon {
+  svg {
+    width: auto;
+    height: 4em;
+    fill: $color-pink;
+    margin: auto;
+    display: block;
+
+    @media (min-width: 48em) {
+      margin: 0 2em;
+    }
+
+    @media (min-width: 60em) {
+      margin: 0.5em 2em;
+    }
+  }
+}
+
 .about-how-item__title {
   font-size: 2em;
-  margin: 0;
+  margin: 0.5em 0 0.5em;
 
   @media (min-width: 60em) {
     font-size: 2.5em;
@@ -15,5 +56,9 @@
 
   @media (min-width: 60em) {
     font-size: 1.125em;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
   }
 }

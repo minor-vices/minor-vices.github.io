@@ -2,9 +2,9 @@
 
 .client-cards {
   padding: 0 5vw;
-  margin-bottom: 5vw;
 
   @media (min-width: 48em) {
+    margin-bottom: 5vw;
     display: grid;
     grid-gap: 2.5vw;
     grid-template-columns: repeat(3, 1fr);
@@ -62,6 +62,29 @@
     left: 0;
   }
 
+  &::before {
+    @media (min-width: 48em) {
+      content: '';
+      background-image: linear-gradient(to bottom, rgba($color-black, 0) 50%, rgba($color-black, 0.8));
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity $transition-duration;
+
+      @media (hover: none) {
+        opacity: 1;
+      }
+
+      .client-card:hover & {
+        opacity: 1;
+      }
+    }
+  }
+
   img {
     width: 100%;
     max-width: none;
@@ -79,6 +102,22 @@
 
   @media (min-width: 48em) {
     position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    opacity: 0;
+    transition: opacity $transition-duration;
+
+    @media (hover: none) {
+      opacity: 1;
+    }
+
+    .client-card:hover & {
+      opacity: 1;
+    }
+  }
+
+  @media (min-width: 60em) {
     right: 1.5rem;
     bottom: 1.5rem;
     left: 1.5rem;

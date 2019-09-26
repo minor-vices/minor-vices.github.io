@@ -65,8 +65,17 @@
   @media (min-width: 60em) {
     font-size: 1.25em;
   }
+}
 
-  > *:last-child {
-    margin-bottom: 0;
+.home-about__more {
+  line-height: 1.5;
+
+  @media (min-width: 60em) {
+    font-size: 1.25em;
+  }
+
+  a {
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
   }
 }

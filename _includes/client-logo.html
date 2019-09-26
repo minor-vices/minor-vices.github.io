@@ -1,0 +1,14 @@
+{%- if include.data -%}
+
+  {%- capture class_name -%}
+    {{ include.data.type }}{% if include.data.class_name %} {{ include.data.class_name }}{% endif %}
+  {%- endcapture -%}
+
+  <div class="{{ class_name }}">
+
+    {%- if include.data.logo -%}
+      {%- include {{ include.data.logo }} -%}
+    {%- endif -%}
+
+  </div>
+{%- endif -%}

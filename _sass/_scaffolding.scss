@@ -1,14 +1,30 @@
 /* Scaffolding */
 
+html {
+  height: 100%;
+}
+
 body {
   width: 100%;
   min-width: $body-min-width;
+  min-height: 100%;
   font-family: $font-family;
   font-size: $body-font-size;
   line-height: $body-line-height;
   color: $body-color;
   background-color: $body-background-color;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  flex-shrink: 0;
+}
+
+#content {
+  flex-grow: 1;
 }
 
 a {

@@ -4,7 +4,12 @@
 
       {%- if include.data.items -%}
         {%- for item in include.data.items -%}
-          <li>
+
+          {%- capture class_name -%}
+            industries-nav__item{% if item.class_name %} {{ item.class_name }}{% endif %}
+          {%- endcapture -%}
+
+          <li class="{{ class_name }}">
             <a href="{{ item.href | default: "#" }}">{{ item.title }}</a>
           </li>
         {%- endfor -%}

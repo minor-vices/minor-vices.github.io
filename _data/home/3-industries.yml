@@ -1,6 +1,7 @@
 items:
   - items:
-      - href: "#sports"
+      - class_name: "industries-nav__item--active"
+        href: "#sports"
         title: "Sports"
 
       - href: "#gaming"
@@ -9,8 +10,8 @@ items:
       - href: "#healthcare"
         title: "Healthcare"
 
-      - href: "#consumer"
-        title: "Consumer"
+      - href: "#consumer-audio"
+        title: "Consumer Audio"
 
       - href: "#television"
         title: "Television"
@@ -29,11 +30,11 @@ items:
           sizes:
             - "(min-width: 48em) 45vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/industries/sports-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
-            "1280w": "http://placehold.it/1280x1280/000/333"
+            "640w": "/assets/images/industries/sports-640x640.jpg"
+            "960w": "/assets/images/industries/sports-960x960.jpg"
+            "1280w": "/assets/images/industries/sports-1280x1280.jpg"
           type: "img"
         title: "NBA"
         type: "industry-card"
@@ -46,11 +47,11 @@ items:
           sizes:
             - "(min-width: 48em) 45vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/industries/gaming-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
-            "1280w": "http://placehold.it/1280x1280/000/333"
+            "640w": "/assets/images/industries/gaming-640x640.jpg"
+            "960w": "/assets/images/industries/gaming-960x960.jpg"
+            "1280w": "/assets/images/industries/gaming-1280x1280.jpg"
           type: "img"
         title: "NBA 2K League"
         type: "industry-card"
@@ -63,28 +64,28 @@ items:
           sizes:
             - "(min-width: 48em) 45vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/industries/healthcare-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
-            "1280w": "http://placehold.it/1280x1280/000/333"
+            "640w": "/assets/images/industries/healthcare-640x640.jpg"
+            "960w": "/assets/images/industries/healthcare-960x960.jpg"
+            "1280w": "/assets/images/industries/healthcare-1280x1280.jpg"
           type: "img"
         title: "Zocdoc"
         type: "industry-card"
 
-      - category: "Consumer"
-        class_name: "swiper-slide industry-card--consumer"
+      - category: "Consumer Audio"
+        class_name: "swiper-slide industry-card--consumer-audio"
         description: "Product Strategy, Brand, UI/UX"
-        id: "consumer"
+        id: "consumer-audio"
         media:
           sizes:
             - "(min-width: 48em) 45vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/industries/consumer-audio-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
-            "1280w": "http://placehold.it/1280x1280/000/333"
+            "640w": "/assets/images/industries/consumer-audio-640x640.jpg"
+            "960w": "/assets/images/industries/consumer-audio-960x960.jpg"
+            "1280w": "/assets/images/industries/consumer-audio-1280x1280.jpg"
           type: "img"
         title: "Ultimate Ears"
         type: "industry-card"
@@ -97,11 +98,11 @@ items:
           sizes:
             - "(min-width: 48em) 45vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/industries/television-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
-            "1280w": "http://placehold.it/1280x1280/000/333"
+            "640w": "/assets/images/industries/television-640x640.jpg"
+            "960w": "/assets/images/industries/television-960x960.jpg"
+            "1280w": "/assets/images/industries/television-1280x1280.jpg"
           type: "img"
         title: "AMC Networks"
         type: "industry-card"
@@ -114,11 +115,11 @@ items:
           sizes:
             - "(min-width: 48em) 45vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/industries/connected-devices-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
-            "1280w": "http://placehold.it/1280x1280/000/333"
+            "640w": "/assets/images/industries/connected-devices-640x640.jpg"
+            "960w": "/assets/images/industries/connected-devices-960x960.jpg"
+            "1280w": "/assets/images/industries/connected-devices-1280x1280.jpg"
           type: "img"
         title: "L’Oreal"
         type: "industry-card"

@@ -12,11 +12,11 @@ items:
           sizes:
             - "(min-width: 48em) 30vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/home/research-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
-            "1280w": "http://placehold.it/1280x1280/000/333"
+            "640w": "/assets/images/home/research-640x640.jpg"
+            "960w": "/assets/images/home/research-960x960.jpg"
+            "1280w": "/assets/images/home/research-1280x1280.jpg"
           type: "img"
         title: "Research"
         type: "service-card"
@@ -29,11 +29,11 @@ items:
           sizes:
             - "(min-width: 48em) 30vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/home/strategy-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
-            "1280w": "http://placehold.it/1280x1280/000/333"
+            "640w": "/assets/images/home/strategy-640x640.jpg"
+            "960w": "/assets/images/home/strategy-960x960.jpg"
+            "1280w": "/assets/images/home/strategy-1280x1280.jpg"
           type: "img"
         title: "Strategy"
         type: "service-card"
@@ -45,11 +45,11 @@ items:
           sizes:
             - "(min-width: 48em) 30vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/home/design-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
-            "1280w": "http://placehold.it/1280x1280/000/333"
+            "640w": "/assets/images/home/design-640x640.jpg"
+            "960w": "/assets/images/home/design-960x960.jpg"
+            "1280w": "/assets/images/home/design-1280x1280.jpg"
           type: "img"
         title: "Design"
         type: "service-card"

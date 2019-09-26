@@ -7,6 +7,7 @@ items:
           Our creative leadership is involved in every project, from beginning
           to end. We are personally invested and  make your business goals our
           own.
+        icon: "icons/hands-on.svg"
         title: "Hands On"
         type: "about-how-item"
 
@@ -14,6 +15,7 @@ items:
           Our process is highly collaborative. We work closely with you to
           provide creative solutions to known and unknown problems and scale our
           teams to meet your needs as they evolve.
+        icon: "icons/collaborative.svg"
         title: "Collaborative"
         type: "about-how-item"
 
@@ -22,6 +24,7 @@ items:
           problems and testing early and often. Our team works with a diverse
           toolkit of prototyping tools and tailors solutions to the needs of
           each project.
+        icon: "icons/iterative.svg"
         title: "Iterative"
         type: "about-how-item"
     type: "about-how-items"

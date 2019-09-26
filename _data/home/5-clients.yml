@@ -13,13 +13,14 @@ items:
               sizes:
                 - "60vw"
               srcset:
-                "640w": "http://placehold.it/640x360/000/333"
-                "960w": "http://placehold.it/960x540/000/333"
-                "1280w": "http://placehold.it/1280x720/000/333"
+                "640w": "/assets/images/clients/amc-640x333.jpg"
+                "960w": "/assets/images/clients/amc-960x499.jpg"
+                "1280w": "/assets/images/clients/amc-1280x666.jpg"
           src: "http://placehold.it/640x640/000/333"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
+            "640w": "/assets/images/clients/amc-640x640.jpg"
+            "960w": "/assets/images/clients/amc-960x960.jpg"
+            "1280w": "/assets/images/clients/amc-1280x1280.jpg"
           type: "picture"
         title: "AMC"
         type: "client-card"
@@ -30,10 +31,11 @@ items:
           sizes:
             - "(min-width: 48em) 30vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/clients/nba-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
+            "640w": "/assets/images/clients/nba-640x640.jpg"
+            "960w": "/assets/images/clients/nba-960x960.jpg"
+            "1280w": "/assets/images/clients/nba-1280x1280.jpg"
           type: "img"
         title: "NBA"
         type: "client-card"
@@ -44,10 +46,11 @@ items:
           sizes:
             - "(min-width: 48em) 30vw"
             - "90vw"
-          src: "http://placehold.it/640x640/000/333"
+          src: "/assets/images/clients/zocdoc-640x640.jpg"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
+            "640w": "/assets/images/clients/zocdoc-640x640.jpg"
+            "960w": "/assets/images/clients/zocdoc-960x960.jpg"
+            "1280w": "/assets/images/clients/zocdoc-1280x1280.jpg"
           type: "img"
         title: "Zocdoc"
         type: "client-card"
@@ -62,14 +65,34 @@ items:
               sizes:
                 - "30vw"
               srcset:
-                "640w": "http://placehold.it/640x800/000/333"
-                "960w": "http://placehold.it/960x1200/000/333"
+                "480w": "/assets/images/clients/ultimate-ears-480x997.jpg"
+                "640w": "/assets/images/clients/ultimate-ears-640x1330.jpg"
+                "770w": "/assets/images/clients/ultimate-ears-770x1600.jpg"
           src: "http://placehold.it/640x640/000/333"
           srcset:
-            "640w": "http://placehold.it/640x640/000/333"
-            "960w": "http://placehold.it/960x960/000/333"
+            "640w": "/assets/images/clients/ultimate-ears-640x640.jpg"
+            "960w": "/assets/images/clients/ultimate-ears-960x960.jpg"
+            "1280w": "/assets/images/clients/ultimate-ears-1280x1280.jpg"
           type: "picture"
         title: "Ultimate Ears"
         type: "client-card"
     type: "client-cards"
+
+  - items:
+      - logo: "logos/amc.svg"
+        type: "client-logo"
+      - logo: "logos/nike.svg"
+        type: "client-logo"
+      - logo: "logos/logitech.svg"
+        type: "client-logo"
+      - logo: "logos/ultimate-ears.svg"
+        type: "client-logo"
+      - logo: "logos/zocdoc.svg"
+        type: "client-logo"
+      - logo: "logos/nba.svg"
+        type: "client-logo"
+      - logo: "logos/ifc.svg"
+        type: "client-logo"
+    type: "client-logos"
+
 type: "section"

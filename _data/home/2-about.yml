@@ -1,17 +1,17 @@
 description: |
   Minor Vices is a no-nonsense, NYC based design studio founded out of the
   desire to work with great brands and great teams.
-
-  [Get to Know Us](/about/)
 media:
   sizes:
     - "(min-width: 48em) 45vw"
     - "90vw"
-  src: "http://placehold.it/640x640/000/333"
+  src: "/assets/images/home/about-640x640.jpg"
   srcset:
-    "640w": "http://placehold.it/640x640/000/333"
-    "960w": "http://placehold.it/960x960/000/333"
-    "1280w": "http://placehold.it/1280x1280/000/333"
+    "640w": "/assets/images/home/about-640x640.jpg"
+    "960w": "/assets/images/home/about-960x960.jpg"
+    "1280w": "/assets/images/home/about-1280x1280.jpg"
   type: "img"
+more: |
+  [Get to Know Us](/about/)
 title: "A little bit of bad for the greater good"
 type: "home-about"
