@@ -14,10 +14,10 @@ media:
         "1280w": "/assets/images/heroes/nba-1280x720.jpg"
         "1600w": "/assets/images/heroes/nba-1600x900.jpg"
         "1920w": "/assets/images/heroes/nba-1920x1080.jpg"
-  src: "/assets/images/heroes/nba-640x960.jpg"
+  src: "/assets/images/heroes/nba-640x800.jpg"
   srcset:
-    "640w": "/assets/images/heroes/nba-640x960.jpg"
-    "960w": "/assets/images/heroes/nba-960x1440.jpg"
+    "640w": "/assets/images/heroes/nba-640x800.jpg"
+    "960w": "/assets/images/heroes/nba-960x1200.jpg"
   type: "picture"
 title: "Hoops How You Like It"
 type: "hero"
