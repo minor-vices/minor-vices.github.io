@@ -1,6 +1,7 @@
 ---
 data: "work"
 layout: "data"
+nav_title: "Our Work"
 permalink: "/work/"
-title: "Our Work"
+title: "Work - Minor Vices"
 ---

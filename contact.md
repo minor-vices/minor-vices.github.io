@@ -1,6 +1,7 @@
 ---
 data: "contact"
 layout: "data"
+nav_title: "Contact Us"
 permalink: "/contact/"
-title: "Contact Us"
+title: "Contact Minor Vices"
 ---

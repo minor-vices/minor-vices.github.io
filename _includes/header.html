@@ -22,10 +22,10 @@
       <ul>
         {%- for path in paths -%}
           {%- assign item = site.pages | where: "path", path | first -%}
-          {%- if item.title -%}
+          {%- if item.nav_title -%}
             <li>
               <a href="{{ item.url | relative_url }}">
-                {{ item.title | escape }}
+                {{ item.nav_title | escape }}
               </a>
             </li>
           {%- endif -%}

@@ -1,6 +1,7 @@
 ---
 data: "about"
 layout: "data"
+nav_title: "About Us"
 permalink: "/about/"
-title: "About Us"
+title: "About Minor Vices"
 ---
