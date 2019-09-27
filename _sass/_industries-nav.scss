@@ -28,6 +28,8 @@
 
   a {
     font-size: 2em;
+    padding: 0.0625em 0;
+    display: inline-block;
 
     @media (min-width: 80em) {
       font-size: 3.375em;
