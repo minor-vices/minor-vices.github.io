@@ -1,4 +1,3 @@
 ---
 data: "home"
-layout: "data"
 ---

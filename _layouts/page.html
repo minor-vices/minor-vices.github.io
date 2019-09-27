@@ -1,14 +1,16 @@
 ---
-layout: default
+layout: "default"
 ---
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+{%- if site.data[page.data] -%}
+  {%- assign items = site.data[page.data] | sort -%}
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+  {%- for item_hash in items -%}
+    {%- assign item = item_hash[1] -%}
 
-</article>
+    {%- if item and item.type -%}
+      {% include {{ item.type }}.html data=item %}
+    {%- endif -%}
+
+  {%- endfor -%}
+{%- endif -%}
