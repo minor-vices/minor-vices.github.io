@@ -15,12 +15,11 @@ header_nav_page_paths:
 # Build settings
 markdown: "kramdown"
 plugins:
-  - "jekyll-feed"
   - "jekyll-seo-tag"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# Exclusions
+# The following items will be excluding from processing by default.
+# To override uncomment and edit as needed.
 # exclude:
 #   - Gemfile
 #   - Gemfile.lock
