@@ -32,7 +32,9 @@
     active = key;
 
     [].forEach.call(navElements, function(el) {
-      el.addEventListener('click', handleNavClick);
+      el.addEventListener('click', handleNav);
+      el.addEventListener('mouseenter', handleNav);
+      el.addEventListener('mouseleave', handleNav);
     });
   }
 
@@ -43,7 +45,7 @@
     swiper = null;
   }
 
-  function handleNavClick(event) {
+  function handleNav(event) {
     event.preventDefault();
 
     var listItem = event.target.closest('li');
