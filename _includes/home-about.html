@@ -10,14 +10,14 @@
     <div class="{{ include.data.type }}__text">
 
       {%- if include.data.title -%}
-        <h2 class="{{ include.data.type }}__title">
+        <p class="{{ include.data.type }}__title">
           {{ include.data.title }}
-        </h2>
+        </p>
       {%- endif -%}
 
       {%- if include.data.description -%}
         <div class="{{ include.data.type }}__description">
-          {{ include.data.description | markdownify }}
+          {{ include.data.description }}
         </div>
       {%- endif -%}
 

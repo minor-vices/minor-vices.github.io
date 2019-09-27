@@ -1,6 +1,5 @@
-description: |
-  Minor Vices is a no-nonsense, NYC based design studio founded out of the
-  desire to work with great brands and great teams.
+description: "<h1>Minor Vices</h1> is a no-nonsense, NYC based design studio founded out of the
+  desire to work with great brands and great teams."
 media:
   sizes:
     - "(min-width: 48em) 45vw"
