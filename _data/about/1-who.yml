@@ -1,5 +1,6 @@
 items:
-  - description: |
+  - class_name: "section-header--about-who"
+    description: |
       Minor Vices is a no-nonsense, NYC based design studio founded out of the
       desire to work with great brands and great teams. We are a nimble group of
       make-it-happeners who are as passionate about defining problems as we are

@@ -1,0 +1,11 @@
+{%- if include.data -%}
+  <div class="{{ include.data.type }}">
+
+    {%- if include.data.media -%}
+      <div class="{{ include.data.type }}__media">
+        {% include {{ include.data.media.type }}.html data=include.data.media %}
+      </div>
+    {%- endif -%}
+
+  </div>
+{%- endif -%}

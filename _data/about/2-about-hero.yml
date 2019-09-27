@@ -1,0 +1,19 @@
+media:
+  sizes:
+    - "100vw"
+  sources:
+    - media: "(orientation: landscape), (min-width: 40em)"
+      sizes:
+        - "100vw"
+      srcset:
+        "640w": "/assets/images/about/about-640x360.jpg"
+        "960w": "/assets/images/about/about-960x540.jpg"
+        "1280w": "/assets/images/about/about-1280x720.jpg"
+        "1600w": "/assets/images/about/about-1600x900.jpg"
+        "1920w": "/assets/images/about/about-1920x1080.jpg"
+  src: "/assets/images/about/about-640x533.jpg"
+  srcset:
+    "640w": "/assets/images/about/about-640x533.jpg"
+    "960w": "/assets/images/about/about-960x800.jpg"
+  type: "picture"
+type: "about-hero"
