@@ -1,0 +1,13 @@
+/**
+ * Remove unit from length
+ *
+ * @param {Number} $length - Length to remove unit from
+ * @return {Number} - Unitless length
+ */
+@function strip-unit($length) {
+  @if type-of($length) == 'number' and not unitless($length) {
+    @return $length / ($length * 0 + 1);
+  }
+
+  @return $length;
+}

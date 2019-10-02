@@ -1,0 +1,28 @@
+// Dependencies
+@import "functions/strip-unit";
+
+/**
+ * Scale value
+ *
+ * @param {String} $property - Property to scale
+ * @param {Number} $min-value - Minimum value
+ * @param {Number} $max-value - Maximum value
+ * @param {Number} $min-width - Viewport width where value begins scaling from min to max
+ * @param {Number} $max-width - Viewport width where value is clamped to max
+ */
+@mixin scale-value($property, $min-value, $max-value, $min-width, $max-width) {
+  $calc: calc(
+    #{$min-value}
+    + (#{strip-unit($max-value)} - #{strip-unit($min-value)})
+    * (100vw - #{$min-width})
+    / (#{strip-unit($max-width)} - #{strip-unit($min-width)})
+  );
+
+  @media (min-width: $min-width) {
+    #{$property}: $calc;
+  }
+
+  @media (min-width: $max-width) {
+    #{$property}: $max-value;
+  }
+}

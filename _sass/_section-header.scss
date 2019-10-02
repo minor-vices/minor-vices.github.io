@@ -26,18 +26,14 @@
   margin: 0 0 1.5rem;
   position: relative;
 
-  @media (min-width: 60em) {
-    font-size: 4em;
-  }
+  @include scale-value('font-size', 2.5em, 4em, 40em, 80em);
 
   .section-header--contact & {
     font-size: 2em;
     padding: 0 0 2rem;
     margin-bottom: 2rem;
 
-    @media (min-width: 60em) {
-      font-size: 3.375em;
-    }
+    @include scale-value('font-size', 2em, 3.375em, 40em, 80em);
   }
 
   &::before {
@@ -59,13 +55,11 @@
 }
 
 .section-header__description {
-  max-width: 32em;
+  max-width: 36em;
   line-height: 1.5;
   margin: auto;
 
-  @media (min-width: 60em) {
-    font-size: 1.5em;
-  }
+  @include scale-value('font-size', 1em, 1.5em, 40em, 80em);
 
   > * {
     margin: 0 0 0.75em;
@@ -75,9 +69,7 @@
     font-size: 1.5em;
     line-height: 1.25;
 
-    @media (min-width: 60em) {
-      font-size: 3.375em;
-    }
+    @include scale-value('font-size', 1.5em, 3.375em, 40em, 80em);
 
     > *:first-child a {
       border-bottom: 2px solid currentColor;
