@@ -59,9 +59,7 @@
   line-height: 1.125;
   margin: 0 0 0.125em;
 
-  @media (min-width: 60em) {
-    font-size: 4em;
-  }
+  @include scale-value('font-size', 2em, 4em, 40em, 80em);
 }
 
 .hero__description {
@@ -69,9 +67,7 @@
   font-size: 0.875em;
   line-height: 1.5;
 
-  @media (min-width: 60em) {
-    font-size: 1.125em;
-  }
+  @include scale-value('font-size', 0.875em, 1.125em, 40em, 80em);
 
   a {
     border-bottom: 1px solid currentColor;
