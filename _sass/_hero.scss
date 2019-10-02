@@ -73,7 +73,16 @@
     font-size: 1.125em;
   }
 
-  > * {
+  a {
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
+  }
+
+  p {
+    margin-bottom: 0.75em;
+  }
+
+  > *:last-child {
     margin-bottom: 0;
   }
 }

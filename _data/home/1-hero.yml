@@ -1,6 +1,9 @@
 description: |
-  NBA League Pass is availabe in over 200 countries worldwide, and we help
-  enable fans to purchase and watch games wherever, whenever.
+  We’re invested in you, and in your results. We’ll work with you to design
+  world-class products and experiences that surprise, transform, and always add
+  value.
+
+  [Let’s Talk](/contact/)
 media:
   sizes:
     - "100vw"
@@ -19,5 +22,5 @@ media:
     "640w": "/assets/images/heroes/nba-640x800.jpg"
     "960w": "/assets/images/heroes/nba-960x1200.jpg"
   type: "picture"
-title: "Hoops How You Like It"
+title: "All-in. Always."
 type: "hero"
