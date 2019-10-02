@@ -37,9 +37,7 @@
   line-height: 1.125;
   margin: 0 0 0.375em;
 
-  @media (min-width: 60em) {
-    font-size: 3em;
-  }
+  @include scale-value('font-size', 2em, 3em, 48em, 90em);
 }
 
 .service-card__description {
@@ -47,7 +45,5 @@
   line-height: 1.5;
   margin-bottom: 2rem;
 
-  @media (min-width: 60em) {
-    font-size: 1.125em;
-  }
+  @include scale-value('font-size', 1em, 1.125em, 48em, 90em);
 }

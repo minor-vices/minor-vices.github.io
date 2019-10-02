@@ -2,7 +2,7 @@
 
 .industries-nav {
   width: 43.75vw;
-  color: $color-white;
+  color: rgba($color-white, 0.3);
   display: none;
   position: absolute;
   top: 50%;
@@ -11,7 +11,6 @@
   z-index: 2;
 
   @media (min-width: 48em) {
-    color: rgba($color-white, 0.3);
     display: block;
   }
 
@@ -21,9 +20,7 @@
   }
 
   li.industries-nav__item--active {
-    @media (min-width: 48em) {
-      color: $color-white;
-    }
+    color: $color-white;
   }
 
   a {
@@ -31,8 +28,6 @@
     padding: 0.0625em 0;
     display: inline-block;
 
-    @media (min-width: 80em) {
-      font-size: 3.375em;
-    }
+    @include scale-value('font-size', 2em, 3.375em, 48em, 90em);
   }
 }

@@ -40,9 +40,7 @@
     fill: currentColor;
     display: block;
 
-    @media (min-width: 60em) {
-      height: 1.5em;
-    }
+    @include scale-value('height', 1.125em, 1.5em, 48em, 60em);
   }
 }
 

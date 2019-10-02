@@ -26,14 +26,14 @@
   margin: 0 0 1.5rem;
   position: relative;
 
-  @include scale-value('font-size', 2.5em, 4em, 40em, 80em);
+  @include scale-value('font-size', 2.5em, 4em, 48em, 90em);
 
   .section-header--contact & {
     font-size: 2em;
     padding: 0 0 2rem;
     margin-bottom: 2rem;
 
-    @include scale-value('font-size', 2em, 3.375em, 40em, 80em);
+    @include scale-value('font-size', 2em, 3.375em, 48em, 90em);
   }
 
   &::before {
@@ -59,7 +59,7 @@
   line-height: 1.5;
   margin: auto;
 
-  @include scale-value('font-size', 1em, 1.5em, 40em, 80em);
+  @include scale-value('font-size', 1em, 1.5em, 48em, 90em);
 
   > * {
     margin: 0 0 0.75em;
@@ -69,7 +69,7 @@
     font-size: 1.5em;
     line-height: 1.25;
 
-    @include scale-value('font-size', 1.5em, 3.375em, 40em, 80em);
+    @include scale-value('font-size', 1.5em, 3.375em, 48em, 90em);
 
     > *:first-child a {
       border-bottom: 2px solid currentColor;

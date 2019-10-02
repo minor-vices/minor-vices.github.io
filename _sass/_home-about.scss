@@ -44,7 +44,6 @@
     margin-top: 0;
   }
 
-  @include scale-value('font-size', 2em, 3em, 30em, 48em);
   @include scale-value('font-size', 2em, 4em, 48em, 90em);
 
   &::before {
@@ -62,7 +61,6 @@
   line-height: 1.5;
   margin-bottom: 1.5em;
 
-  @include scale-value('font-size', 1em, 1.125em, 30em, 48em);
   @include scale-value('font-size', 1em, 1.25em, 48em, 90em);
 
   h1 {
@@ -75,7 +73,6 @@
 .home-about__more {
   line-height: 1.5;
 
-  @include scale-value('font-size', 1em, 1.125em, 30em, 48em);
   @include scale-value('font-size', 1em, 1.25em, 48em, 90em);
 
   a {
