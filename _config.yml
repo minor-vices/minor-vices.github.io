@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 email: "hey@minorvices.com"
 tel: "+1 646 694 0062"
+google_analytics: "UA-150288672-1"
 header_nav_page_paths:
   - "about.md"
   - "work.md"

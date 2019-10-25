@@ -16,5 +16,10 @@
 
     <script src="{{ "/assets/scripts/vendor.js" | relative_url }}"></script>
     <script src="{{ "/assets/scripts/script.js" | relative_url }}"></script>
+
+    {%- if jekyll.environment == "production" and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+
   </body>
 </html>
