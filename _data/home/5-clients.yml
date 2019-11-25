@@ -89,8 +89,6 @@ items:
         type: "client-logo"
       - logo: "logos/zocdoc.svg"
         type: "client-logo"
-      - logo: "logos/nba.svg"
-        type: "client-logo"
       - logo: "logos/ifc.svg"
         type: "client-logo"
     type: "client-logos"
