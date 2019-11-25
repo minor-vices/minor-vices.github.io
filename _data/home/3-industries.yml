@@ -109,7 +109,7 @@ items:
 
       - category: "Gaming"
         class_name: "swiper-slide industry-card--gaming"
-        description: "Digital Product & Service Design"
+        description: "UI/UX, Motion Design"
         id: "gaming"
         media:
           sizes:
@@ -121,7 +121,7 @@ items:
             "960w": "/assets/images/industries/gaming-960x960.jpg"
             "1280w": "/assets/images/industries/gaming-1280x1280.jpg"
           type: "img"
-        title: "NBA 2K League"
+        title: "NY Times"
         type: "industry-card"
     type: "industry-cards"
 type: "industries"
