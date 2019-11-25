@@ -1,16 +1,7 @@
 items:
   - items:
       - class_name: "industries-nav__item--active"
-        href: "#sports"
-        title: "Sports"
-
-      - href: "#gaming"
-        title: "Gaming"
-
-      - href: "#healthcare"
-        title: "Healthcare"
-
-      - href: "#consumer-audio"
+        href: "#consumer-audio"
         title: "Consumer Audio"
 
       - href: "#television"
@@ -18,61 +9,19 @@ items:
 
       - href: "#connected-devices"
         title: "Connected Devices"
+
+      - href: "#healthcare"
+        title: "Healthcare"
+
+      - href: "#sports"
+        title: "Sports"
+
+      - href: "#gaming"
+        title: "Gaming"
     type: "industries-nav"
 
   - class_name: "swiper-container"
     items:
-      - category: "Sports"
-        class_name: "swiper-slide industry-card--sports"
-        description: "Digital Product & Service Design"
-        id: "sports"
-        media:
-          sizes:
-            - "(min-width: 48em) 45vw"
-            - "90vw"
-          src: "/assets/images/industries/sports-640x640.jpg"
-          srcset:
-            "640w": "/assets/images/industries/sports-640x640.jpg"
-            "960w": "/assets/images/industries/sports-960x960.jpg"
-            "1280w": "/assets/images/industries/sports-1280x1280.jpg"
-          type: "img"
-        title: "NBA"
-        type: "industry-card"
-
-      - category: "Gaming"
-        class_name: "swiper-slide industry-card--gaming"
-        description: "Digital Product & Service Design"
-        id: "gaming"
-        media:
-          sizes:
-            - "(min-width: 48em) 45vw"
-            - "90vw"
-          src: "/assets/images/industries/gaming-640x640.jpg"
-          srcset:
-            "640w": "/assets/images/industries/gaming-640x640.jpg"
-            "960w": "/assets/images/industries/gaming-960x960.jpg"
-            "1280w": "/assets/images/industries/gaming-1280x1280.jpg"
-          type: "img"
-        title: "NBA 2K League"
-        type: "industry-card"
-
-      - category: "Healthcare"
-        class_name: "swiper-slide industry-card--healthcare"
-        description: "Design Language System"
-        id: "healthcare"
-        media:
-          sizes:
-            - "(min-width: 48em) 45vw"
-            - "90vw"
-          src: "/assets/images/industries/healthcare-640x640.jpg"
-          srcset:
-            "640w": "/assets/images/industries/healthcare-640x640.jpg"
-            "960w": "/assets/images/industries/healthcare-960x960.jpg"
-            "1280w": "/assets/images/industries/healthcare-1280x1280.jpg"
-          type: "img"
-        title: "Zocdoc"
-        type: "industry-card"
-
       - category: "Consumer Audio"
         class_name: "swiper-slide industry-card--consumer-audio"
         description: "Product Strategy, Brand, UI/UX"
@@ -122,6 +71,57 @@ items:
             "1280w": "/assets/images/industries/connected-devices-1280x1280.jpg"
           type: "img"
         title: "L’Oreal"
+        type: "industry-card"
+
+      - category: "Healthcare"
+        class_name: "swiper-slide industry-card--healthcare"
+        description: "Design Language System"
+        id: "healthcare"
+        media:
+          sizes:
+            - "(min-width: 48em) 45vw"
+            - "90vw"
+          src: "/assets/images/industries/healthcare-640x640.jpg"
+          srcset:
+            "640w": "/assets/images/industries/healthcare-640x640.jpg"
+            "960w": "/assets/images/industries/healthcare-960x960.jpg"
+            "1280w": "/assets/images/industries/healthcare-1280x1280.jpg"
+          type: "img"
+        title: "Zocdoc"
+        type: "industry-card"
+
+      - category: "Sports"
+        class_name: "swiper-slide industry-card--sports"
+        description: "Digital Product & Service Design"
+        id: "sports"
+        media:
+          sizes:
+            - "(min-width: 48em) 45vw"
+            - "90vw"
+          src: "/assets/images/industries/sports-640x640.jpg"
+          srcset:
+            "640w": "/assets/images/industries/sports-640x640.jpg"
+            "960w": "/assets/images/industries/sports-960x960.jpg"
+            "1280w": "/assets/images/industries/sports-1280x1280.jpg"
+          type: "img"
+        title: "NBA"
+        type: "industry-card"
+
+      - category: "Gaming"
+        class_name: "swiper-slide industry-card--gaming"
+        description: "Digital Product & Service Design"
+        id: "gaming"
+        media:
+          sizes:
+            - "(min-width: 48em) 45vw"
+            - "90vw"
+          src: "/assets/images/industries/gaming-640x640.jpg"
+          srcset:
+            "640w": "/assets/images/industries/gaming-640x640.jpg"
+            "960w": "/assets/images/industries/gaming-960x960.jpg"
+            "1280w": "/assets/images/industries/gaming-1280x1280.jpg"
+          type: "img"
+        title: "NBA 2K League"
         type: "industry-card"
     type: "industry-cards"
 type: "industries"
